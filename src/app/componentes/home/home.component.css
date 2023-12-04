@@ -1,0 +1,130 @@
+.bg{
+    height: 100%;
+    width: 100%;
+    background-color: #004a98;
+}
+
+.header{
+    height: 8%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    margin-left: 1%;
+    height: 80%;
+    width: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 30px;
+    width: auto;
+}
+
+.flechaCont{
+    width: 600px;
+    height: 150px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centroCont{
+    width: 475px;
+    height: 200px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadro{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+
+
+.flechaSup{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    clip-path: polygon(10% 60%, 50% 0, 90% 60%, 90% 100%, 50% 45%, 10% 100%);
+}
+
+.flechaInf{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  clip-path: polygon(10% 0, 50% 55%, 90% 0, 90% 40%, 50% 100%, 10% 40%);
+}
+
+
+.hexagon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92%;
+  }
+
+  .hexagon {
+    width: 200px;
+    height: 115px;
+    background-color: rgb(236, 234, 234);
+    margin: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: green;
+  }
+  .hexagon a{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+
+  .hexagon:before {
+    top: -50px;
+    border-bottom: 50px solid rgb(236, 234, 234);
+  }
+
+  .hexagon:after {
+    bottom: -50px;
+    border-top: 50px solid rgb(236, 234, 234);
+  }
+
+  .log_out{
+    margin-right: 3%;
+  }
+
+  .log_out a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    color: #004a98;
+    font-weight: bolder;
+  }
